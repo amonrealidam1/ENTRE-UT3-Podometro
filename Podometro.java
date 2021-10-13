@@ -97,12 +97,12 @@ public class Podometro {
         }
         
         switch (dia) {
-            case 6:{
+            case SABADO:{
                 totalPasosSabado += pasos;
                 totalDistanciaFinSemana += (pasos * longitudZancada);
                 break;
             } 
-            case 7:{
+            case DOMINGO:{
                 totalPasosDomingo += pasos;
                 totalDistanciaFinSemana += (pasos * longitudZancada);
                 break;
